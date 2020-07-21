@@ -1,0 +1,93 @@
+/*Tablet Layout*/
+@media only screen and (min-width:200px) and (max-width:991px){
+    #hero_area {height: 500px;}
+    .social_area {max-width: 500px; transform: translate(-550px);}
+    .inner_menu {background: none;min-height: auto;}
+    .inner_menu::after {display: none;}
+    .mean-container .mean-nav {margin-top: 0; width: 80%;}
+    .inner_header {padding: 0;}
+    .social_area {padding-top: 25px; margin-right: -30px;}
+    .search_area {width: 27%;}
+    .search_area form {padding: 1.8%;}
+    .inner_hero img {transform: translateX(-200px);
+     padding-bottom: 80px;margin-bottom: 95px;}
+    .inner_hero h2 {font-size: 70px;margin-bottom: 20px;transform: translateY(-590px);margin-left: 270px;}
+    .inner_hero p {transform: translateY(-590px);margin-left: 272px;}
+    .child_work h2 {transform: translateY(-5px);transform: translateX(-124px); padding-left: 60%;}
+    .child_testimonial {margin-bottom: 5px;margin-left: -90px;}
+    .testimonial_area {transform: translateY(-640px);line-height: 0.9em;}
+    .child_footer {line-height: 1em;}
+
+}
+
+/*Mobile Layout*/
+@media only screen and (min-width:200px) and (max-width:480px){
+    .mini_menu {width: 100%; margin-bottom: 20px;}
+    .mini_menu {margin-bottom: 30px;}
+    .social_area ul {text-align: center;}
+    .search_area,.logo_area {width: 250px;}
+    .search_area form {margin-right: 20px; padding: 1.9%;}
+    .search_area,.logo_area {float: none; margin: 0 auto;}
+    .logo_caption {margin-left: 70px; margin-bottom: 25px;}
+    .img {max-width: 100%;}
+    .mini_menu {margin-left: 45px;}
+    .social_area ul {transform: translate(-400px);transform: translateX(570px);margin-top: -50px;}
+    .social_area ul li {margin: 0 10px;}
+    #hero_area {height: 300px;}
+    .inner_hero h2 { font-size: 39px;margin-bottom: 60px;transform: translateY(-440px);margin-left: 10px;}
+    .inner_hero p {transform: translateY(-470px);margin-left: 150px;}
+    .inner_hero a {transform: translateY(-450px);margin-right: 20px;}
+    .about_area {margin-left: 70px;}
+    .container {width: 100%;}
+    .alignleft {margin-left: 70px;padding-left: 10px;}
+    .about_area img {margin-left: -60px;}
+    .child_work p {margin-left: -60px; font-size: 12px;}
+    .child_work a {padding-top: 5px; line-height: 0.9;}
+    .child_service {margin-left: -55px;}
+    .child_service .service_image {width: 30%;margin-left: -15px;}
+    .child_service .service_text {width: 36%;line-height: 0.1em;}
+    .child_service .service_text h3 {padding-left: -12px;margin-left: -62px;line-height: 1em; padding-bottom: 20px;}
+    .child_service .service_text p {margin-top: -25px;line-height: 0.9em;}
+    #footer_area {padding: 20px 0; height: 1150px;}
+    .child_footer {width: 96%;}
+    #copyright_area {padding: 10px;}
+    .left_copyright {width: 100%;margin-bottom: 10px;}
+    .right_copyright {text-align: left;width: 100%;}
+}
+/*Samsung Layout*/
+@media only screen and (min-width:200px) and (max-width:380px){
+    .mini_menu {margin-left: 31px;}
+    .social_area ul {transform: translateX(540px);margin-top: -45px;}
+    .alignleft {margin-left: 90px;padding-left: 25px;}
+    .inner_hero h2 {font-size: 30px;margin-bottom: 70px;
+    transform: translateY(-405px);}
+    .child_service .service_image {width: 22%; margin-left: -10px;}
+    .child_service {margin-left: -60px;}
+    .child_service .service_text p {margin-top: -30px;line-height: 0.8em;}
+    .child_service .service_text h3 {padding-left: -12px;margin-left: -60px;line-height: 0.6em; margin-bottom: 12px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
